@@ -1241,7 +1241,7 @@
     margin: auto;
     -webkit-transform: translateX(-4px);
         -ms-transform: translateX(-4px);
-            transform: translateX(-4px)
+            transform: translateX(-4px);
 }
 
 #contact-container h2:after {
@@ -1254,7 +1254,7 @@
     margin: auto;
     -webkit-transform: translateX(4px);
         -ms-transform: translateX(4px);
-            transform: translateX(4px)
+            transform: translateX(4px);
 }
 
 .image-box {
