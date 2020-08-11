@@ -85,6 +85,7 @@
     margin: 0;
     position: absolute;
     right: 6px;
+    top: -10px;
     background: var(--primary);
     padding: 0px 6px;
     -webkit-transform: skew(-10deg);
@@ -1041,7 +1042,7 @@
     font-size: 30px;
     position: relative;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1203,6 +1204,10 @@
 
 #contact-container {
     background: #f5f5f5;
+}
+
+.contact-form-group .icon-graphic {
+    height: 100px;
 }
 
 #contact-container h2 {
