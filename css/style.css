@@ -259,6 +259,7 @@
     margin: auto;
     margin-bottom: 50px;
     position: relative;
+    margin-top: 50px;
 }
 
 .picture-left h2, .picture-right h2 {
@@ -933,7 +934,9 @@
 }
 
 #services button {
+    margin: auto;
     margin-top: 50px;
+    display: block;
 }
 
 /*-- -------------------------- -->
