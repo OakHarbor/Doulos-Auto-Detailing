@@ -82,6 +82,7 @@
 }
 
 .slant {
+    margin: 0;
     position: absolute;
     right: 6px;
     background: var(--primary);
