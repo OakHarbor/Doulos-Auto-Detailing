@@ -2853,4 +2853,8 @@ form p{
         max-height: 400px;
     }
 
+    #about > .container {
+        padding: 0;
+    }
+
 }
