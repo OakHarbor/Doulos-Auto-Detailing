@@ -1950,6 +1950,10 @@ form p{
 
     #hero {
         height: 690px;
+        background: url("/images/landing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .heroText {
@@ -2418,6 +2422,10 @@ form p{
 
     #hero {
         height: 690px;
+        background: url("/images/landing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .heroText {
@@ -2848,6 +2856,14 @@ form p{
 
 /* Step 4 */
 @media screen and (min-width: 1400px) {
+
+    #hero {
+        height: 690px;
+        background: url("/images/landing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
     .gallery-images img {
         max-height: 400px;
