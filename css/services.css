@@ -1,5 +1,68 @@
 
 
+* h2 {
+    font-size: 2em;
+}
+
+.container {
+    max-width: 470px;
+    margin: auto;
+}
+
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+#dark {
+    background: rgb(0,0,0);
+    background: -o-radial-gradient(circle, rgba(0,0,0,0.6306897759103641) 0%, rgba(0,0,0,0.9192051820728291) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0.6306897759103641) 0%, rgba(0,0,0,0.9192051820728291) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    opacity: .9;
+}
+
+#hero {
+    height: 300px;
+    background: url("/images/about-landing-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    font-size: 3em;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+#hero h1 span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#hero a {
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+}
+
+span {
+    position: relative;
+    z-index: 10;
+    color: var(--primary);
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#hero a:last-child {
+    font-weight: 500;
+}
 
 /* Step 1 */
 @media screen and (min-width: 540px) and (max-width: 767px) {
