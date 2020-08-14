@@ -1,6 +1,285 @@
 
+* h2 {
+    font-size: 2em;
+}
 
+.container {
+    max-width: 470px;
+    margin: auto;
+}
 
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+#dark {
+    background: rgb(0,0,0);
+    background: -o-radial-gradient(circle, rgba(0,0,0,0.6306897759103641) 0%, rgba(0,0,0,0.9192051820728291) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0.6306897759103641) 0%, rgba(0,0,0,0.9192051820728291) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    opacity: .9;
+}
+
+#hero {
+    height: 400px;
+    background: url("/images/about-landing-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    font-size: 3em;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+}
+
+#hero h1 span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#hero a {
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+}
+
+span {
+    position: relative;
+    z-index: 10;
+    color: var(--primary);
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#hero a:last-child {
+    font-weight: 500;
+}
+
+/*-- -------------------------- -->
+<---          About Us          -->
+<--- -------------------------- -*/
+
+.about-us-top {
+    margin-bottom: 80px;
+}
+
+.images-group-left {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.about-us-left-imageL {
+    position: absolute;
+    height: 200px;
+    width: 85%;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    background-color: #000;
+    filter: grayscale(100%);
+    background-color: #888;
+    background-blend-mode: darken;
+    background-image: url("/images/doulos-auto-detailing-image-15-crop.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff;
+}
+
+.about-us-left-imageR {
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    background-image: url("/images/doulos-auto-detailing-image-32.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 200;
+    right: 0;
+    top: 30px;
+    border: 5px solid #fff;
+}
+
+.about-us-top-content h2 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.about-us-top-content h2 span {
+    margin: 0;
+}
+
+.about-us-top-content h2:before {
+    content: '';
+    width: 30px;
+    background: #ccc;
+    height: 1px;
+    position: absolute;
+    bottom: -18px;
+    margin: auto;
+    left: 0px;
+}
+
+.about-us-top-content h2:after {
+    content: '';
+    width: 30px;
+    background: #ccc;
+    height: 1px;
+    position: absolute;
+    left: 8px;
+    bottom: -21px;
+    margin: auto;
+}
+
+/* Statements */
+
+.statement {
+    margin-bottom: 50px;
+}
+
+.statement h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.statement ul {
+    list-style: none;
+    padding: 0;
+}
+
+.statement ul li {
+    margin-bottom: 15px;
+    margin-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.statement ul li img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.statement ul li:first-child img {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-top: 6px;
+}
+
+/*-- -------------------------- -->
+<---         Advantages         -->
+<--- -------------------------- -*/
+
+#advantages {
+    position: relative;
+}
+
+.advantage {
+    padding: 45px 30px;
+    margin: 0;
+    width: 100%;
+}
+
+.advantage h2 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.advantage h2:before {
+    content: '';
+    width: 30px;
+    background: var(--primary);
+    height: 1px;
+    position: absolute;
+    bottom: -18px;
+    margin: auto;
+    left: 0px;
+}
+
+.advantage h2:after {
+    content: '';
+    width: 30px;
+    background: var(--primary);
+    height: 1px;
+    position: absolute;
+    left: 8px;
+    bottom: -21px;
+    margin: auto;
+}
+
+.advantage h2 span {
+    margin: 0;
+}
+
+.advantage h2, .advantage h3, .advantage p {
+    text-align: left;
+    color: #fff;
+}
+
+.advantage h3 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.advantage p {
+    opacity: .8;
+}
+
+.advantage img {
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.box-1 {
+    background: rgb(39, 39, 39);
+    position: relative;
+}
+
+.box-1 button {
+    background: transparent;
+    border: 1px solid var(--primary);
+    width: 150px;
+}
+
+.box-1 button:hover {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    width: 150px;
+    color: #000;
+}
+
+.box-2 {
+    background: #343434;
+}
+
+.box-3 {
+    background: #404040;
+}
+
+.box-4 {
+    background: #4b4b4b;
+}
+
+.floater {
+    position: absolute;
+    color: #fff;
+    font-size: 160px;
+    opacity: .05;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    right: -480px;
+    top: 600px;
+}
 
 /* Step 1 */
 @media screen and (min-width: 540px) and (max-width: 767px) {
@@ -9,27 +288,557 @@
         max-width: 650px
     }
 
+    #hero h1 {
+        margin-top: 90px;
+    }
 
+    /*-- -------------------------- -->
+    <---          About us          -->
+    <--- -------------------------- -*/
 
+    .images-group-left {
+        height: 380px;
+    }
+
+    .about-us-left-imageL {
+        width: 340px;
+        height: 340px;
+        top: 0;
+    }
+
+    .about-us-left-imageR {
+        left: 100px;
+        height: 250px;
+        width: 300px;
+        top: 60px;
+    }
+
+    /*-- -------------------------- -->
+    <---         Advantages         -->
+    <--- -------------------------- -*/
+
+    #advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+
+    .advantage {
+        width: 50%;
+        height: 410px;
+        margin: 0;
+    }
+
+    .floater {
+        font-size: 140px;
+        right: -760px;
+        top: 400px;
+    }
+
+    /*-- -------------------------- -->
+    <---           Contact          -->
+    <--- -------------------------- -*/
+
+    #contact {
+        max-width: 550px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #contact .input1[type="text"],
+    #contact .input1[type="email"],
+    #contact .input1[type="tel"] {
+        width: 49%;
+    }
+
+    #contact textarea {
+        height: 200px;
+    }
 }
 
 /* Step 2 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
     
+    .container {
+        max-width: 680px;
+    }
+    
+    .section {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    #hero {
+        background-position: right;
+    }
+
+    #hero h1 {
+        margin-top: 90px;
+    }
+
+    /*-- -------------------------- -->
+    <---           About            -->
+    <--- -------------------------- -*/
+
+    .about-us-top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .images-group-left {
+        width: 300px;
+    }
+
+    .about-us-top-content {
+        width: 400px;
+    }
+
+    .about-us-left-imageL {
+        width: 190px;
+        height: 190px;
+    }
+
+    .about-us-left-imageR {
+        width: 170px;
+        height: 150px;
+        left: 60px;
+        top: 25px;
+    }
+
+    .icon-graphic {
+        display: none;
+    }
+
+    /*-- -------------------------- -->
+    <---         Advantages         -->
+    <--- -------------------------- -*/
+
+    #advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+
+    .advantage {
+        width: 50%;
+        height: 410px;
+        margin: 0;
+    }
+
+    .floater {
+        font-size: 140px;
+        right: -840px;
+        top: 400px;
+    }
+
+    /*-- -------------------------- -->
+    <---           Contact          -->
+    <--- -------------------------- -*/
+
+    #contact {
+        max-width: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #contact .input1[type="text"],
+    #contact .input1[type="email"],
+    #contact .input1[type="tel"] {
+        width: 49%;
+    }
+
+    #contact textarea {
+        height: 200px;
+    }
+
+    #contact-container h3 {
+        margin: auto;
+        margin-top: 30px;
+        width: 350px;
+    }
 
 }
 
 /* Step 3 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    
+    .container {
+        max-width: 1200px;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .section {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    #hero {
+        background-position: right;
+    }
+
+    #hero h1 {
+        margin-top: 90px;
+    }
+
+    /*-- -------------------------- -->
+    <---           About            -->
+    <--- -------------------------- -*/
+
+    .about-us-top {
+        max-width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .images-group-left {
+        width: 50%;
+    }
+
+    .about-us-top-content {
+        width: 50%;
+    }
+
+    .about-us-left-imageL {
+        width: 360px;
+        height: 360px;
+    }
+
+    .about-us-left-imageR {
+        width: 320px;
+        height: 260px;
+        left: 120px;
+        top: 65px;
+    }
+
+    .icon-graphic {
+        display: none;
+    }
+
+    .about-us-statemnts {
+        margin-top: 120px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        position: relative;
+    }
+
+    .about-us-statemnts:before {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 65%;
+        background: var(--primary);
+        left: 0;
+        bottom: 75px;
+        opacity: .5;
+    }
+
+    .statement {
+        width: 30%;
+    }
+
+    /*-- -------------------------- -->
+    <---         Advantages         -->
+    <--- -------------------------- -*/
+
+    #advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+
+    .about-us-top-content h2, .about-us-top-content h2 span {
+        font-size: 44px;
+    }
+
+    .advantage {
+        width: 25%;
+        height: 410px;
+        margin: 0;
+        height: 480px;
+    }
+
+    .floater {
+        font-size: 140px;
+        right: -840px;
+        top: 400px;
+        -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+        right: -700px;
+        top: 410px;
+    }
+
+    /*-- -------------------------- -->
+    <---           Contact          -->
+    <--- -------------------------- -*/
+
+    #contact {
+        max-width: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #contact .input1[type="text"],
+    #contact .input1[type="email"],
+    #contact .input1[type="tel"] {
+        width: 49%;
+    }
+
+    #contact textarea {
+        height: 200px;
+    }
+
+    #contact-container h3 {
+        margin: auto;
+        margin-top: 30px;
+        width: 350px;
+    }
 
 }
 
 /* Step 4 */
+@media screen and (min-width: 1201px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+    .section {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    #hero {
+        background-position: right;
+    }
+
+    #hero h1 {
+        margin-top: 90px;
+    }
+
+    /*-- -------------------------- -->
+    <---           About            -->
+    <--- -------------------------- -*/
+
+    .about-us-top {
+        max-width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .images-group-left {
+        width: 300px;
+        height: 400px;
+    }
+
+    .about-us-top-content {
+        width: 500px;
+    }
+
+    .about-us-left-imageL {
+        width: 430px;
+        height: 430px;
+    }
+
+    .about-us-left-imageR {
+        width: 380px;
+        height: 300px;
+        left: 120px;
+        top: 65px;
+    }
+
+    .icon-graphic {
+        display: none;
+    }
+
+    .about-us-statemnts {
+        margin-top: 120px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        position: relative;
+    }
+
+    .about-us-statemnts:before {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 65%;
+        background: var(--primary);
+        left: 0;
+        bottom: 75px;
+        opacity: .5;
+    }
+
+    .statement {
+        width: 30%;
+    }
+
+    /*-- -------------------------- -->
+    <---         Advantages         -->
+    <--- -------------------------- -*/
+
+    #advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+
+    .about-us-top-content h2, .about-us-top-content h2 span {
+        font-size: 44px;
+    }
+
+    .advantage {
+        width: 25%;
+        height: 410px;
+        margin: 0;
+        height: 480px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .floater {
+        font-size: 140px;
+        right: -840px;
+        top: 400px;
+        -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+        right: -700px;
+        top: 410px;
+    }
+
+    /*-- -------------------------- -->
+    <---           Contact          -->
+    <--- -------------------------- -*/
+
+    #contact {
+        max-width: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #contact .input1[type="text"],
+    #contact .input1[type="email"],
+    #contact .input1[type="tel"] {
+        width: 49%;
+    }
+
+    #contact textarea {
+        height: 200px;
+    }
+
+    #contact-container h3 {
+        margin: auto;
+        margin-top: 30px;
+        width: 350px;
+    }
+    
+}
+
+/* Step 5 */
 @media screen and (min-width: 1400px) {
 
-
+    
     
 }

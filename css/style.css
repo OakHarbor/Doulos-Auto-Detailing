@@ -1653,6 +1653,28 @@ form p{
         font-size: 50px;
     }
 
+    #contact {
+        max-width: 550px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #contact .input1[type="text"],
+    #contact .input1[type="email"],
+    #contact .input1[type="tel"] {
+        width: 49%;
+    }
+
+    #contact textarea {
+        height: 200px;
+    }
+
 }
 
 /* Step 2 */
@@ -1887,6 +1909,28 @@ form p{
         margin: auto;
         margin-bottom: 40px;
         font-size: 50px;
+    }
+
+    #contact {
+        max-width: 600px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #contact .input1[type="text"],
+    #contact .input1[type="email"],
+    #contact .input1[type="tel"] {
+        width: 49%;
+    }
+
+    #contact textarea {
+        height: 200px;
     }
 
 }

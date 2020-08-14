@@ -18,6 +18,11 @@
             align-items: center;
 }
 
+.shadow {
+    -webkit-box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+}
+
 .skip {
     position: absolute;
     opacity: 0;
@@ -50,12 +55,12 @@ body, html {
 
 p {
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: .8em;
 }
 
 p, a, li, span {
-	font-family: 'Poppins', sans-serif;
-	color: #777;
+	font-family: 'Roboto', sans-serif;
+	color: #292929;
     margin: 0;
     line-height: 28px;
     margin-bottom: 20px;
@@ -431,11 +436,19 @@ button:hover {
         max-width: 100%;
     }
 
+    p {
+        font-size: 1em;
+    }
+
 }
 
 
 /* Desktop */
 @media screen and (min-width: 992px) {
+
+    p {
+        font-size: 1em;
+    }
 
     /* Hidden Elements */
     .mobile-wrapper,
