@@ -20,7 +20,7 @@ body {
 
 #hero {
     height: 300px;
-    background: url("/images/services-mobile.jpg");
+    background: url("/images/portfolio-mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -387,7 +387,7 @@ html.clicked {
 
     #hero {
         height: 400px;
-        background: url("/images/services-desktop.jpg");
+        background: url("/images/portfolio-desktop.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -462,10 +462,11 @@ html.clicked {
 
     #hero {
         height: 400px;
-        background: url("/images/services-desktop.jpg");
-        background-position: center;
+        background: url("/images/portfolio-desktop.jpg");
+        background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     /*-- -------------------------- -->
