@@ -582,7 +582,7 @@ button:hover {
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
-        font-size: .8em;
+        font-size: 1em;
         text-transform: uppercase;
 	}
 
