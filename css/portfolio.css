@@ -382,6 +382,34 @@ html.clicked {
     overflow-y: hidden;
 }
 
+#contact-container h2 {
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#contact-container h3 {
+    max-width: 300px;
+    margin: auto;
+}
+
+.lines {
+    margin-bottom: 0;
+}
+
+.icon-graphic {
+    margin: 0 auto;
+}
+
+/* Small Screens */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+
+}
+
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 

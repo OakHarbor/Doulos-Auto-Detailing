@@ -162,6 +162,34 @@
     margin: auto;
 }
 
+#contact-container h2 {
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.lines {
+    margin-bottom: 0;
+}
+
+.icon-graphic {
+    margin: 0 auto;
+}
+
+#contact-container h3 {
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Small Screens */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+
+}
+
 /* Step 1 */
 @media screen and (min-width: 540px) and (max-width: 767px) {
 
@@ -252,6 +280,10 @@
         background-attachment: fixed;
     }
 
+    #hero h1 {
+        font-size: 3em;
+    }
+
     #detailing-services h2 {
         font-size: 3em;
     }
@@ -302,6 +334,74 @@
 }
 
 /* Step 4 */
+@media screen and (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px
+    }
+
+
+    #hero {
+        height: 400px;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    #hero h1 {
+        font-size: 3em;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .service {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .service-content {
+        height: 280px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .service:nth-child(5) .service-content {
+        height: 330px;
+    }
+
+
+    .warning {
+        display: block;
+        width: 100%;
+        -webkit-box-ordinal-group: 10;
+            -ms-flex-order: 9;
+                order: 9;
+        margin-top: 50px;
+    }
+
+}
+
+/* Step 5 */
 @media screen and (min-width: 1400px) {
 
     .container {
@@ -311,9 +411,14 @@
     #hero {
         height: 400px;
         background: url("/images/services-desktop.jpg");
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #hero h1 {
+        font-size: 3em !important;
     }
 
     #detailing-services h2 {
