@@ -23,7 +23,7 @@
 
 #hero {
     height: 300px;
-    background: url("/images/about-landing-mobile.jpg");
+    background: url("/images/services-mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,6 +203,13 @@
         max-width: 900px
     }
 
+    #hero {
+        background: url("/images/services-desktop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     #detailing-services h2 {
         font-size: 3em;
     }
@@ -237,6 +244,10 @@
 
     #hero {
         height: 400px;
+        background: url("/images/services-desktop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #detailing-services h2 {
@@ -297,6 +308,10 @@
 
     #hero {
         height: 400px;
+        background: url("/images/services-desktop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #detailing-services h2 {

@@ -534,6 +534,7 @@ span {
 
     #hero {
         background-position: right;
+        height: 400px;
     }
 
     #hero h1 {
@@ -642,8 +643,9 @@ span {
         -webkit-transform: rotate(0deg);
             -ms-transform: rotate(0deg);
                 transform: rotate(0deg);
-        right: -700px;
+        right: -900px;
         top: 410px;
+        font-size: 220px;
     }
 
     /*-- -------------------------- -->
@@ -699,6 +701,7 @@ span {
 
     #hero {
         background-position: right;
+        height: 400px;
     }
 
     #hero h1 {
@@ -818,8 +821,9 @@ span {
         -webkit-transform: rotate(0deg);
             -ms-transform: rotate(0deg);
                 transform: rotate(0deg);
-        right: -700px;
+        right: -960px;
         top: 410px;
+        font-size: 220px;
     }
 
     /*-- -------------------------- -->
@@ -859,6 +863,13 @@ span {
 /* Step 5 */
 @media screen and (min-width: 1400px) {
 
-    
+    #hero {
+        height: 400px;
+    }
+
+    .floater {
+        font-size: 290px;
+        right: -1250px;
+    }
     
 }

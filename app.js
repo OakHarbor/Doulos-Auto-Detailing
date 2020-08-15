@@ -52,33 +52,6 @@ let toggleNav = function () {
 
 // gallery toggle functionality 
 
-// button as variables
-var $residentialButton = $(".residential-button");
-var $commercialButton = $(".commercial-button");
-
-// gallerys
-var $residential = $(".residential");
-var $commercial = $(".commercial");
-
-// when the residential button is clicked
-$residentialButton.on("click", function(e) {
-  $residentialButton.addClass("clicked");
-  $commercialButton.removeClass("clicked");
-
-  $residential.addClass("clicked");
-  $commercial.removeClass("clicked");
-});
-
-// when the commercial button is clicked
-$commercialButton.on("click", function(e) {
-  $commercialButton.addClass("clicked");
-  $residentialButton.removeClass("clicked");
-  
-  $commercial.addClass("clicked");
-  $residential.removeClass("clicked");
-});
-
-
 /* Modals collected in variables */
 
 // Residential Modals
@@ -114,31 +87,6 @@ var $modalTwentyNine = $(".modal-twenty-nine");
 var $modalThirty = $(".modal-thirty");
 var $modalThirtyOne = $(".modal-thirty-one");
 var $modalThirtyTwo = $(".modal-thirty-two");
-
-// Commercial Modals
-var $modalOneC = $(".c-modal-one");
-var $modalTwoC = $(".c-modal-two");
-var $modalThreeC = $(".c-modal-three");
-var $modalFourC = $(".c-modal-four");
-var $modalFiveC = $(".c-modal-five");
-var $modalSixC = $(".c-modal-six");
-var $modalSevenC = $(".c-modal-seven");
-var $modalEightC = $(".c-modal-eight");
-var $modalNineC = $(".c-modal-nine");
-var $modalTenC = $(".c-modal-ten");
-var $modalElevenC = $(".c-modal-eleven");
-var $modalTwelveC = $(".c-modal-twelve");
-var $modalThirteenC = $(".c-modal-thirteen");
-var $modalFourteenC = $(".c-modal-fourteen");
-var $modalFifteenC = $(".c-modal-fifteen");
-var $modalSixteenC = $(".c-modal-sixteen");
-var $modalSeventeenC = $(".c-modal-seventeen");
-var $modalEighteenC = $(".c-modal-eighteen");
-var $modalNineteenC = $(".c-modal-nineteen");
-var $modalTwentyC = $(".c-modal-twenty");
-var $modalTwentyOneC = $(".c-modal-twenty-one");
-var $modalTwentyTwoC = $(".c-modal-twenty-two");
-var $modalTwentyThreeC = $(".c-modal-twenty-three");
 
 /* Images collected in variables */
 
@@ -179,316 +127,172 @@ var $thirty = $("#thirty");
 var $thirtyOne = $("#thirty-one");
 var $thirtyTwo = $("#thirty-two");
 
-// Commercial
-var $oneC = $("#c-one");
-var $twoC = $("#c-two");
-var $threeC = $("#c-three");
-var $fourC = $("#c-four");
-var $fiveC = $("#c-five");
-var $sixC = $("#c-six");
-var $sevenC = $("#c-seven");
-var $eightC = $("#c-eight");
-var $nineC = $("#c-nine");
-var $tenC = $("#c-ten");
-var $elevenC = $("#c-eleven");
-var $twelveC = $("#c-twelve");
-var $thirteenC = $("#c-thirteen");
-var $fourteenC = $("#c-fourteen");
-var $fifteenC = $("#c-fifteen");
-var $sixteenC = $("#c-sixteen");
-var $seventeenC = $("#c-seventeen");
-var $eighteenC = $("#c-eighteen");
-var $nineteenC = $("#c-nineteen");
-var $twentyC = $("#c-twenty");
-var $twentyOneC = $("#c-twenty-one");
-var $twentyTwoC = $("#c-twenty-two");
-var $twentyThreeC = $("#c-twenty-three");
-
-
 /* Add Clicked Class */
 
 //Residential
-$one.on("click", function(e) {
+$one.on("click", function (e) {
   $modalOne.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$two.on("click", function(e) {
+$two.on("click", function (e) {
   $modalTwo.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$three.on("click", function(e) {
+$three.on("click", function (e) {
   $modalThree.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$four.on("click", function(e) {
+$four.on("click", function (e) {
   $modalFour.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$five.on("click", function(e) {
+$five.on("click", function (e) {
   $modalFive.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$six.on("click", function(e) {
+$six.on("click", function (e) {
   $modalSix.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$seven.on("click", function(e) {
+$seven.on("click", function (e) {
   $modalSeven.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$eight.on("click", function(e) {
+$eight.on("click", function (e) {
   $modalEight.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$nine.on("click", function(e) {
+$nine.on("click", function (e) {
   $modalNine.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$ten.on("click", function(e) {
+$ten.on("click", function (e) {
   $modalTen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$eleven.on("click", function(e) {
+$eleven.on("click", function (e) {
   $modalEleven.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twelve.on("click", function(e) {
+$twelve.on("click", function (e) {
   $modalTwelve.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$thirteen.on("click", function(e) {
+$thirteen.on("click", function (e) {
   $modalThirteen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$fourteen.on("click", function(e) {
+$fourteen.on("click", function (e) {
   $modalFourteen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$fifteen.on("click", function(e) {
+$fifteen.on("click", function (e) {
   $modalFifteen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$sixteen.on("click", function(e) {
+$sixteen.on("click", function (e) {
   $modalSixteen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$seventeen.on("click", function(e) {
+$seventeen.on("click", function (e) {
   $modalSeventeen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$eighteen.on("click", function(e) {
+$eighteen.on("click", function (e) {
   $modalEighteen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$nineteen.on("click", function(e) {
+$nineteen.on("click", function (e) {
   $modalNineteen.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twenty.on("click", function(e) {
+$twenty.on("click", function (e) {
   $modalTwenty.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyOne.on("click", function(e) {
+$twentyOne.on("click", function (e) {
   $modalTwentyOne.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyTwo.on("click", function(e) {
+$twentyTwo.on("click", function (e) {
   $modalTwentyTwo.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyThree.on("click", function(e) {
+$twentyThree.on("click", function (e) {
   $modalTwentyThree.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyFour.on("click", function(e) {
+$twentyFour.on("click", function (e) {
   $modalTwentyFour.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyFive.on("click", function(e) {
+$twentyFive.on("click", function (e) {
   $modalTwentyFive.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentySix.on("click", function(e) {
+$twentySix.on("click", function (e) {
   $modalTwentySix.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentySeven.on("click", function(e) {
+$twentySeven.on("click", function (e) {
   $modalTwentySeven.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyEight.on("click", function(e) {
+$twentyEight.on("click", function (e) {
   $modalTwentyEight.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$twentyNine.on("click", function(e) {
+$twentyNine.on("click", function (e) {
   $modalTwentyNine.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$thirty.on("click", function(e) {
+$thirty.on("click", function (e) {
   $modalThirty.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$thirtyOne.on("click", function(e) {
+$thirtyOne.on("click", function (e) {
   $modalThirtyOne.addClass("clicked");
   $html.addClass("clicked");
 });
 
-$thirtyTwo.on("click", function(e) {
+$thirtyTwo.on("click", function (e) {
   $modalThirtyTwo.addClass("clicked");
   $html.addClass("clicked");
 });
 
-
-// Commcerical
-$oneC.on("click", function(e) {
-  $modalOneC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$twoC.on("click", function(e) {
-  $modalTwoC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$threeC.on("click", function(e) {
-  $modalThreeC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$fourC.on("click", function(e) {
-  $modalFourC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$fiveC.on("click", function(e) {
-  $modalFiveC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$sixC.on("click", function(e) {
-  $modalSixC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$sevenC.on("click", function(e) {
-  $modalSevenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$eightC.on("click", function(e) {
-  $modalEightC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$nineC.on("click", function(e) {
-  $modalNineC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$tenC.on("click", function(e) {
-  $modalTenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$elevenC.on("click", function(e) {
-  $modalElevenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$twelveC.on("click", function(e) {
-  $modalTwelveC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$thirteenC.on("click", function(e) {
-  $modalThirteenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$fourteenC.on("click", function(e) {
-  $modalFourteenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$fifteenC.on("click", function(e) {
-  $modalFifteenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$sixteenC.on("click", function(e) {
-  $modalSixteenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$seventeenC.on("click", function(e) {
-  $modalSeventeenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$eighteenC.on("click", function(e) {
-  $modalEighteenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$nineteenC.on("click", function(e) {
-  $modalNineteenC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$twentyC.on("click", function(e) {
-  $modalTwentyC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$twentyOneC.on("click", function(e) {
-  $modalTwentyOneC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$twentyTwoC.on("click", function(e) {
-  $modalTwentyTwoC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-$twentyThreeC.on("click", function(e) {
-  $modalTwentyThreeC.addClass("clicked");
-  $html.addClass("clicked");
-});
-
-
 /* Remove Clicked Class */
 
-$homeIcon.on("click", function(e) {
+$homeIcon.on("click", function (e) {
   // Residential
   $modalOne.removeClass("clicked");
   $modalTwo.removeClass("clicked");
@@ -523,30 +327,5 @@ $homeIcon.on("click", function(e) {
   $modalThirtyOne.removeClass("clicked");
   $modalThirtyTwo.removeClass("clicked");
 
-  // Commercial
-  $modalOneC.removeClass("clicked");
-  $modalTwoC.removeClass("clicked");
-  $modalThreeC.removeClass("clicked");
-  $modalFourC.removeClass("clicked");
-  $modalFiveC.removeClass("clicked");
-  $modalSixC.removeClass("clicked");
-  $modalSevenC.removeClass("clicked");
-  $modalEightC.removeClass("clicked");
-  $modalNineC.removeClass("clicked");
-  $modalTenC.removeClass("clicked");
-  $modalElevenC.removeClass("clicked");
-  $modalTwelveC.removeClass("clicked");
-  $modalThirteenC.removeClass("clicked");
-  $modalFourteenC.removeClass("clicked");
-  $modalFifteenC.removeClass("clicked");
-  $modalSixteenC.removeClass("clicked");
-  $modalSeventeenC.removeClass("clicked");
-  $modalEighteenC.removeClass("clicked");
-  $modalNineteenC.removeClass("clicked");
-  $modalTwentyC.removeClass("clicked");
-  $modalTwentyOneC.removeClass("clicked");
-  $modalTwentyTwoC.removeClass("clicked");
-  $modalTwentyThreeC.removeClass("clicked");
-  
   $html.removeClass("clicked");
 });
