@@ -42,6 +42,7 @@
 #hero h1 span {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    color: var(--primary);
 }
 
 #hero a {
@@ -52,46 +53,298 @@
     color: #fff;
 }
 
-span {
+.links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.links a {
+    margin: 0;
+}
+
+.links span {
     position: relative;
     z-index: 10;
     color: var(--primary);
     margin: 0 12px;
     font-weight: bold;
+    font-size: 1.7em;
 }
 
 #hero a:last-child {
     font-weight: 500;
 }
 
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+#detailing-services h2 {
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service-content {
+    padding: 35px 25px;
+    background: #eee;
+}
+
+.service h3 {
+    font-size: 1.5em;
+}
+
+.image {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(1) .image {
+    background: url("/images/doulos-auto-detailing-image-10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(2) .image {
+    background: url("/images/doulos-auto-detailing-image-22.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(3) .image {
+    background: url("/images/doulos-auto-detailing-image-11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(4) .image {
+    background: url("/images/doulos-auto-detailing-image-13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(5) .image {
+    background: url("/images/doulos-auto-detailing-image-17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(6) .image {
+    background: url("/images/interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service:nth-child(7) .image {
+    background: url("/images/doulos-auto-detailing-image-23.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.warning {
+    text-align: center;
+    margin: auto;
+}
+
 /* Step 1 */
 @media screen and (min-width: 540px) and (max-width: 767px) {
 
+    
+
     .container {
-        max-width: 650px
+        max-width: 700px
     }
 
+    #detailing-services h2 {
+        font-size: 3em;
+    }
 
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .service {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
 
 }
 
 /* Step 2 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    
+    .container {
+        max-width: 900px
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .service {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
 
 }
 
 /* Step 3 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    
+    .container {
+        max-width: 1200px
+    }
 
+    #hero {
+        height: 400px;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .service {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .service-content {
+        height: 280px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .service:nth-child(5) .service-content {
+        height: 330px;
+    }
+
+
+    .warning {
+        display: block;
+        width: 100%;
+        -webkit-box-ordinal-group: 10;
+            -ms-flex-order: 9;
+                order: 9;
+        margin-top: 200px;
+    }
 }
 
 /* Step 4 */
 @media screen and (min-width: 1400px) {
 
+    .container {
+        max-width: 1300px
+    }
 
+    #hero {
+        height: 400px;
+    }
+
+    #detailing-services h2 {
+        font-size: 3em;
+    }
+
+    .services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .service {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .service-content {
+        height: 280px;
+    }
+
+    .service:nth-child(5) {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .service:nth-child(5) .service-content {
+        height: 330px;
+    }
+
+
+    .warning {
+        display: block;
+        width: 100%;
+        -webkit-box-ordinal-group: 10;
+            -ms-flex-order: 9;
+                order: 9;
+        margin-top: 100px;
+    }
     
 }
