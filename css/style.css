@@ -200,6 +200,7 @@
 
 .icon-graphic {
     width: 49px;
+    height: 100px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,8 +212,8 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .rotate {
