@@ -1935,17 +1935,17 @@ form p{
     }
 
     .lines {
-    margin-bottom: 0;
-}
+        margin-bottom: 0;
+    }
 
-#contact-container .icon-graphic {
-    margin: 0 auto;
-}
+    #contact-container .icon-graphic {
+        margin: 0 auto;
+    }
 
-#contact-container h3 {
-    max-width: 300px;
-    margin: auto;
-}
+    #contact-container h3 {
+        max-width: 300px;
+        margin: auto;
+    }
 
 }
 
