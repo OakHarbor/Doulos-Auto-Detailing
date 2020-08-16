@@ -2633,6 +2633,8 @@ form p{
     }
 
     .box:before {
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
     }
 
@@ -2646,6 +2648,8 @@ form p{
         background: var(--primary);
         height: 100%;
         width: 100%;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
         opacity: .6;
     }
@@ -2656,6 +2660,8 @@ form p{
         background: var(--primary);
         height: 100%;
         width: 100%;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
         opacity: .6;
     }
@@ -2666,6 +2672,8 @@ form p{
         background: var(--primary);
         height: 100%;
         width: 100%;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
         opacity: .6;
     }
@@ -2676,6 +2684,8 @@ form p{
         background: var(--primary);
         height: 100%;
         width: 100%;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
         opacity: .6;
     }
