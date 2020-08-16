@@ -185,11 +185,17 @@
     margin: auto;
 }
 
-.middle img {
+.middle > img {
     width: 180px;
     margin: auto;
     display: block;
     margin-bottom: 20px;
+}
+
+.middle button {
+    display: block;
+    margin: auto;
+    color: #292929;
 }
 
 .icon-graphic {
@@ -344,6 +350,18 @@
         -ms-flex-align: center;
             align-items: center;
 }
+
+.box h2 a {
+        position: relative;
+        z-index: 100;
+        height: 100%;
+        width: 1005;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        line-height: 1.2em;
+        font-weight: bold;
+    }
 
 .box:before {
     content: '';
@@ -1531,6 +1549,10 @@ form p{
         width: 400px;
     }
 
+    .middle {
+        margin-bottom: 40px;
+    }
+
     .middle p:nth-child(1) {
         font-size: 1.5em;
         width: 200px;
@@ -1590,6 +1612,10 @@ form p{
 
     .service-item:nth-child(5) {
         border-bottom: 0;
+    }
+
+    .service-item p {
+        height: 57px;
     }
 
     #services button {
@@ -1771,6 +1797,7 @@ form p{
     .middle {
         display: block;
         width: 100%;
+        margin-bottom: 50px;
     }
 
     .middle > img {
@@ -2244,6 +2271,10 @@ form p{
         margin: auto;
     }
 
+    .service-item p {
+        height: 57px;
+    }
+
     .service-item:nth-child(1) {
         border-right: 1px solid rgba(255,255,255,0.35);
         border-bottom: 1px solid rgba(255,255,255,0.35);
@@ -2374,6 +2405,7 @@ form p{
     }
 
     .review {
+        height: 377px;
         max-width: 400px;
         padding: 40px;
     }
@@ -2576,12 +2608,76 @@ form p{
         margin-left: 20px;
     }
 
+    .box {
+        position: relative;
+    }
+
+    .box h2 a {
+        position: relative;
+        z-index: 100;
+        height: 100%;
+        width: 1005;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        line-height: 1.2em;
+        font-weight: bold;
+    }
+
     .box1, .box3 {
         border-right: 15px solid #fff;
     }
 
     .box2, .box4 {
         border-left: 15px solid #fff;
+    }
+
+    .box:before {
+        transition: .2s ease-in-out;
+    }
+
+    .box:hover {
+        cursor: pointer;
+    }
+
+    .box1:hover.box1:before {
+        content: '';
+        position: absolute;
+        background: var(--primary);
+        height: 100%;
+        width: 100%;
+        transition: .2s ease-in-out;
+        opacity: .6;
+    }
+
+    .box2:hover.box2:before {
+        content: '';
+        position: absolute;
+        background: var(--primary);
+        height: 100%;
+        width: 100%;
+        transition: .2s ease-in-out;
+        opacity: .6;
+    }
+
+    .box3:hover.box3:before {
+        content: '';
+        position: absolute;
+        background: var(--primary);
+        height: 100%;
+        width: 100%;
+        transition: .2s ease-in-out;
+        opacity: .6;
+    }
+
+    .box4:hover.box4:before {
+        content: '';
+        position: absolute;
+        background: var(--primary);
+        height: 100%;
+        width: 100%;
+        transition: .2s ease-in-out;
+        opacity: .6;
     }
 
     .top-triangle {
@@ -2732,6 +2828,10 @@ form p{
         margin: auto;
     }
 
+    .service-item p {
+        height: 57px;
+    }
+
     .service-item:nth-child(1) {
         border-right: 1px solid rgba(255,255,255,0.35);
         border-bottom: 1px solid rgba(255,255,255,0.35);
@@ -2758,6 +2858,7 @@ form p{
         border-top: 0;
         border-bottom: 0;
     }
+    
 
     /*-- -------------------------- -->
     <---           Stats            -->
@@ -2861,6 +2962,7 @@ form p{
     }
 
     .review {
+        height: 377px;
         max-width: 400px;
         padding: 40px;
     }

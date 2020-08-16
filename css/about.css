@@ -438,6 +438,7 @@ span {
 
     #hero {
         background-position: right;
+        background: url("/images/about-landing-desktop.jpg");
     }
 
     #hero h1 {
@@ -565,6 +566,7 @@ span {
     }
 
     #hero {
+        background: url("/images/about-landing-desktop.jpg");
         background-position: right;
         height: 400px;
     }
@@ -750,6 +752,7 @@ span {
     }
 
     #hero {
+        background: url("/images/about-landing-desktop.jpg");
         background-position: right;
         height: 400px;
     }
