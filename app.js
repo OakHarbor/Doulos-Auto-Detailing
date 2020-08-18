@@ -329,3 +329,229 @@ $homeIcon.on("click", function (e) {
 
   $html.removeClass("clicked");
 });
+
+
+// ------------------------------------------------- DARK MODE -----------------------------
+
+/* Dark Mode Toggle */
+var $DTspan = $(".DTspan");
+var $darkToggle = $(".dark-toggle");
+var $wire = $(".wire");
+var $triangle = $(".triangle");
+var $topDarkModeToggle = $(".top-dark-mode-button");
+
+/* Navigation */
+var $navbarMenu = $(".navbar-menu");
+var $sideNavA = $(".side-nav a");
+var $isActiveHamburger = $(".hamburger.is-active .hamburger-inner::after");
+var $hamburgerInner = $(".hamburger-inner");
+var $neon = $(".neon");
+var $blue = $(".blue");
+var $white = $(".white");
+
+/* Body and Core Elements */
+var $body = $("body");
+
+var $h2 = $("h2");
+var $h3 = $("h3");
+var $p = $("p");
+
+var $universe = $(".universe");
+
+var $button = $(".button-solid");
+var $submit = $("#contact button");
+
+/* Landing */
+var $clippy = $(".clippy");
+var $iconGraphicMiddle = $(".icon-graphic-middle");
+
+// About
+var $triangleTop = $(".triangle-top");
+var $box1 = $(".box1");
+var $box2 = $(".box2");
+var $box3 = $(".box3");
+var $box4 = $(".box4");
+var $middleButton = $(".middle button");
+var $aboutH4 = $(".about-info h4");
+
+// Call Strip
+var $cardSection = $(".card-section");
+
+// Benefits
+var $benefitsH3 = $("#benefits h3");
+
+// Reviews
+var $reviewsH4 = $("#reviews h4");
+
+// Contact
+var $chevron = $(".chevron-graphic");
+
+//
+// ABOUT PAGE --------------------------------------------------
+//
+
+// Values
+var $valuesLi = $(".statement ul li");
+
+//
+// SERVICES PAGE --------------------------------------------------
+//
+
+var $serviceContent = $(".service-content");
+var $serviceContentLi = $(".service-content li");
+
+
+// Dark Mode Action
+let darkMode = localStorage.getItem("darkMode");
+const darkModeToggle = document.querySelector('.dark-mode-button');
+const darkModeToggleFooter = document.querySelector('footer .dark-mode-button');
+
+const enableDarkMode = () => {
+
+  /* Dark Mode Toggle */
+  $darkToggle.addClass("dark-mode");
+  $DTspan.addClass("dark-mode");
+  $topDarkModeToggle.addClass("dark-mode");
+
+  $body.addClass("dark-mode");
+
+  $h2.addClass("dark-mode");
+  $h3.addClass("dark-mode");
+  $p.addClass("dark-mode");
+
+  // Navigation 
+  $navbarMenu.addClass("dark-mode");
+  $sideNavA.addClass("dark-mode");
+  $isActiveHamburger.addClass("dark-mode");
+  $hamburgerInner.addClass("dark-mode");
+
+  // Landing
+  $clippy.addClass("dark-mode");
+  $iconGraphicMiddle.addClass("dark-mode");
+  
+  // About
+  $triangleTop.addClass("dark-mode");
+  $box1.addClass("dark-mode");
+  $box2.addClass("dark-mode");
+  $box3.addClass("dark-mode");
+  $box4.addClass("dark-mode");
+  $middleButton.addClass("dark-mode");
+  $aboutH4.addClass("dark-mode");
+
+  // Call Strip
+  $cardSection.addClass("dark-mode");
+
+  // Benefits
+  $benefitsH3.addClass("dark-mode");
+
+  // Reviews
+  $reviewsH4.addClass("dark-mode");
+
+  // Contact
+  $chevron.addClass("dark-mode");
+
+  //
+  // ABOUT PAGE --------------------------------------------------
+  //
+
+  // Values
+  $valuesLi.addClass("dark-mode");
+
+  //
+  // SERVICES PAGE --------------------------------------------------
+  //
+
+  // Service Content
+  $serviceContent.addClass("dark-mode");
+  $serviceContentLi.addClass("dark-mode");
+
+
+  localStorage.setItem("darkMode", "enabled")
+}
+
+const disableDarkMode = () => {
+
+  /* Dark Mode Toggle */
+  $darkToggle.removeClass("dark-mode");
+  $DTspan.removeClass("dark-mode");
+  $topDarkModeToggle.removeClass("dark-mode");
+
+  $body.removeClass("dark-mode");
+
+  $h2.removeClass("dark-mode");
+  $h3.removeClass("dark-mode");
+  $p.removeClass("dark-mode");
+
+  // Navigation 
+  $navbarMenu.removeClass("dark-mode");
+  $sideNavA.removeClass("dark-mode");
+  $isActiveHamburger.removeClass("dark-mode");
+  $hamburgerInner.removeClass("dark-mode");
+  $blue.removeClass("dark-mode");
+  $white.removeClass("dark-mode");
+
+  // Landing
+  $clippy.removeClass("dark-mode");
+  $iconGraphicMiddle.removeClass("dark-mode");
+
+  // About
+  $triangleTop.removeClass("dark-mode");
+  $box1.removeClass("dark-mode");
+  $box2.removeClass("dark-mode");
+  $box3.removeClass("dark-mode");
+  $box4.removeClass("dark-mode");
+  $middleButton.removeClass("dark-mode");
+  $aboutH4.removeClass("dark-mode");
+
+  // Call Strip
+  $cardSection.removeClass("dark-mode");
+
+  // Benefits
+  $benefitsH3.removeClass("dark-mode");
+
+  // Reviews
+  $reviewsH4.removeClass("dark-mode");
+
+  // Contact
+  $chevron.removeClass("dark-mode");
+
+  //
+  // ABOUT PAGE --------------------------------------------------
+  //
+
+  // Values
+  $valuesLi.removeClass("dark-mode");
+
+  //
+  // SERVICES PAGE --------------------------------------------------
+  //
+
+  // Service Content
+  $serviceContent.removeClass("dark-mode");
+  $serviceContentLi.removeClass("dark-mode");
+  
+
+  localStorage.setItem("darkMode", null)
+}
+
+if (darkMode == "enabled") {
+  enableDarkMode();
+}
+
+darkModeToggle.addEventListener('click', () => {
+  darkMode = localStorage.getItem("darkMode");
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+})
+
+darkModeToggleFooter.addEventListener('click', () => {
+  darkMode = localStorage.getItem("darkMode");
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+})

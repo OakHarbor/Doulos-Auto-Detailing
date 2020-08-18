@@ -40,11 +40,9 @@ html {
 
 :root {
     --primary: #00ADFF;
-    --dark: #226607;
-    --light: #c3e6b6;
-    --secondary: #192940;
-    --secondaryLight: #406882;
-    --secondaryDark: #18263B;
+    --dark: #000;
+    --medium: #1b1b1b;
+    --light: #2e2e2e;
 }
 
 body, html {
@@ -353,10 +351,10 @@ button:hover {
 	        justify-content: center;
     height: 100%;
     z-index: 100;
-    background: #333;	
-	background: -o-linear-gradient(#000, #333);	
-	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));	
-	background: linear-gradient(#000, #333);
+    background: #222;	
+	background: -o-linear-gradient(#000, #222);	
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#222));	
+	background: linear-gradient(#000, #222);
 }
 
 .hamburger {
@@ -800,8 +798,13 @@ p.container {
 
 .branding p, .branding a {
     color: #222;
-    font-size: .9em;
+    font-size: 1em;
 }
+
+.branding p {
+    width: 350px;
+}
+
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
