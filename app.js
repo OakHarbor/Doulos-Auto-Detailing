@@ -385,6 +385,12 @@ var $reviewsH4 = $("#reviews h4");
 
 // Contact
 var $chevron = $(".chevron-graphic");
+var $contactContainer = $("#contact-container");
+
+// Footer 
+var $bottomGraphic = $(".bottom-graphic");
+var $footerTriangle = $(".footer-triangle-top");
+var $brandingA = $(".branding p a");
 
 //
 // ABOUT PAGE --------------------------------------------------
@@ -449,6 +455,13 @@ const enableDarkMode = () => {
 
   // Contact
   $chevron.addClass("dark-mode");
+  $contactContainer.addClass("dark-mode");
+
+  // Footer 
+  $chevron.addClass("dark-mode");
+  $footerTriangle.addClass("dark-mode");
+  $bottomGraphic.addClass("dark-mode");
+  $brandingA.addClass("dark-mode");
 
   //
   // ABOUT PAGE --------------------------------------------------
@@ -514,6 +527,13 @@ const disableDarkMode = () => {
 
   // Contact
   $chevron.removeClass("dark-mode");
+  $contactContainer.removeClass("dark-mode");
+
+  // Footer 
+  $chevron.removeClass("dark-mode");
+  $footerTriangle.removeClass("dark-mode");
+  $bottomGraphic.removeClass("dark-mode");
+  $brandingA.removeClass("dark-mode");
 
   //
   // ABOUT PAGE --------------------------------------------------
