@@ -377,6 +377,10 @@ var $aboutH4 = $(".about-info h4");
 // Call Strip
 var $cardSection = $(".card-section");
 
+// Services 
+var $leftBefore = $(".left-graphic");
+var $rightBefore = $(".right-graphic");
+
 // Benefits
 var $benefitsH3 = $("#benefits h3");
 
@@ -446,6 +450,10 @@ const enableDarkMode = () => {
 
   // Call Strip
   $cardSection.addClass("dark-mode");
+
+  // Services
+  $leftBefore.addClass("dark-mode");
+  $rightBefore.addClass("dark-mode");
 
   // Benefits
   $benefitsH3.addClass("dark-mode");
@@ -518,6 +526,10 @@ const disableDarkMode = () => {
 
   // Call Strip
   $cardSection.removeClass("dark-mode");
+
+  // Services
+  $leftBefore.removeClass("dark-mode");
+  $rightBefore.removeClass("dark-mode");
 
   // Benefits
   $benefitsH3.removeClass("dark-mode");

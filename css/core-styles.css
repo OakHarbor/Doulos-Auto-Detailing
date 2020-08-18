@@ -824,4 +824,8 @@ p.container {
     .brnd {
         font-size: .8em;
     }
+
+    .branding p {
+        width: 450px;
+    }
 }

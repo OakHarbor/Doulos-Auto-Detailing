@@ -1282,9 +1282,11 @@
 .chevron-graphic {
     position: absolute;
     height: 50px;
-    width: 100%;
+    width: 102%;
     bottom: 0px;
+    left: -10px;
     background: #f5f5f5;
+    margin: auto;
     -webkit-clip-path: polygon(50% 93%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
             clip-path: polygon(50% 93%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
 }

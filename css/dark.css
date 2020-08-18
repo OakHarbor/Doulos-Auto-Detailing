@@ -261,6 +261,14 @@ h3.dark-mode {
     color: #fff;
 }
 
+.left-graphic.dark-mode:before {
+    display: none;
+}
+
+.right-graphic.dark-mode:before {
+    display: none;
+}
+
 /*-- -------------------------- -->
 <---          Benefits          -->
 <--- -------------------------- -*/
@@ -361,8 +369,9 @@ h3.dark-mode {
     
     .top-dark-mode-button {
         position: absolute !important;
-        top: 44px !important;
-        right: 0px !important;
+        right: 0px;
+        left: unset;
+        top: 55px;
         -webkit-transform: rotate(-90deg);
             -ms-transform: rotate(-90deg);
                 transform: rotate(-90deg);
