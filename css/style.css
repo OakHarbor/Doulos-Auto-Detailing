@@ -3047,3 +3047,21 @@ form p{
     }
 
 }
+
+/* Step 5 */
+@media screen and (min-width: 1401px) {
+
+    .gallery-images img {
+        max-height: 500px;
+    }
+
+}
+
+/* Step 5 */
+@media screen and (min-width: 2491px) {
+
+    .gallery-images img {
+        max-height: 600px;
+    }
+
+}
