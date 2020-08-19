@@ -215,7 +215,7 @@ h3.dark-mode {
 <---           About            -->
 <--- -------------------------- -*/
 
-.top-triangle {
+.top-triangle.dark-mode {
     background: #000;
     height: 22px;
     top: -1px;
