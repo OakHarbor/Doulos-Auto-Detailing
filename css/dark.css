@@ -285,7 +285,7 @@ h3.dark-mode {
     color: #fff;
 }
 
-.review {
+.review.dark-mode {
     background: var(--medium);
 }
 
