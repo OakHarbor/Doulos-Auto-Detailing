@@ -366,7 +366,7 @@ var $clippy = $(".clippy");
 var $iconGraphicMiddle = $(".icon-graphic-middle");
 
 // About
-var $triangleTop = $(".triangle-top");
+var $triangleTop = $(".top-triangle");
 var $box1 = $(".box1");
 var $box2 = $(".box2");
 var $box3 = $(".box3");

@@ -332,7 +332,7 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 4%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 4%);
     position: absolute;
-    top: 0px;
+    top: -1px;
 }
 
 .box {
