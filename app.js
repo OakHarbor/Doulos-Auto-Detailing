@@ -409,6 +409,8 @@ var $valuesLi = $(".statement ul li");
 
 var $serviceContent = $(".service-content");
 var $serviceContentLi = $(".service-content li");
+var $strong = $("strong");
+var $bullets = $(".content li");
 
 
 // Dark Mode Action
@@ -485,6 +487,8 @@ const enableDarkMode = () => {
   // Service Content
   $serviceContent.addClass("dark-mode");
   $serviceContentLi.addClass("dark-mode");
+  $strong.addClass("dark-mode");
+  $bullets.addClass("dark-mode");
 
 
   localStorage.setItem("darkMode", "enabled")
@@ -561,6 +565,8 @@ const disableDarkMode = () => {
   // Service Content
   $serviceContent.removeClass("dark-mode");
   $serviceContentLi.removeClass("dark-mode");
+  $strong.removeClass("dark-mode");
+  $bullets.removeClass("dark-mode");
   
 
   localStorage.setItem("darkMode", null)

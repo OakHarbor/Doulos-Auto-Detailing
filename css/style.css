@@ -3,7 +3,7 @@
 <--- -------------------------- -*/
 
 #hero {
-    height: 300px;
+    height: 350px;
     background: url("/images/landing-mobile.jpg");
     background-position: center;
     background-size: cover;
@@ -114,6 +114,34 @@
 /*-- -------------------------- -->
 <---            About           -->
 <--- -------------------------- -*/
+
+.services-highlight {
+    margin-bottom: 100px;
+}
+
+.highlight {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 40px 50px;
+    -webkit-box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    background: #fff
+}
+
+.highlight h2 {
+    text-align: center;
+}
+
+.highlight button {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
 
 .graphic-top {
     display: -webkit-box;
@@ -393,6 +421,34 @@
     -webkit-transform: scaleX(-1);
         -ms-transform: scaleX(-1);
             transform: scaleX(-1);
+}
+
+.box a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-img {
+    width: 10px;
+    margin-bottom: 10px;
+    animation-name: motion;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes motion {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    0% {
+        transform: translateY(0px);
+    }
 }
 
 /* about info */
@@ -1525,6 +1581,16 @@ form p{
         width: 240px;
     }
 
+    .services-highlight {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .highlight {
+        width: 47%;
+    }
+
     /*-- -------------------------- -->
     <---        Section h2's        -->
     <--- -------------------------- -*/
@@ -1768,6 +1834,10 @@ form p{
 
     #home-p {
         width: 280px;
+    }
+
+    .clippy {
+        height: 50px;
     }
 
     /*-- -------------------------- -->

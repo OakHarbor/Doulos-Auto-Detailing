@@ -1,0 +1,138 @@
+/*-- -------------------------- -->
+<---          Landing           -->
+<--- -------------------------- -*/
+
+#hero h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*-- -------------------------- -->
+<---          Content           -->
+<--- -------------------------- -*/
+
+#clear-coat-ppf {
+    padding-top: 50px;
+}
+
+#clear-coat-ppf img {
+    width: 60%;
+    border: 7px solid #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+a {
+    font-size: bold;
+    color: var(--primary);
+}
+
+.background-image {
+    background: url("/images/portfolio-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.service {
+    width: 100%;
+}
+
+.interior-exterior {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    list-style: none;
+    display: block;
+}
+
+
+
+/*-- -------------------------- -->
+<---           Footer           -->
+<--- -------------------------- -*/
+
+.footer-triangle-top {
+    background: #fff;
+}
+
+/* Step 1 */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        max-width: 650px;
+    }
+
+}
+
+/* Step 2 */
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 900px;
+    }
+
+    #clear-coat-ppf img {
+        width: 300px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        float: left;
+    }
+
+    #five-reasons {
+        padding-top: 100px;
+    }
+
+    .ppf {
+        padding-top: 0 !important;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .background-image {
+        background: url("/images/portfolio-desktop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 1200px) {
+
+    #clear-coat-ppf h2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #clear-coat-ppf .container ul {
+        column-count: 2;
+    }
+
+    #five-reasons .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .service {
+        width: 350px;
+    }
+
+    .service p {
+        height: 300px;
+    }
+
+}

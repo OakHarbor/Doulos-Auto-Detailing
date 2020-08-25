@@ -339,6 +339,24 @@ h3.dark-mode {
     color: #fff;
 }
 
+strong.dark-mode {
+    color: var(--primary);
+}
+
+li {
+    position: relative;
+}
+
+.content li.dark-mode::before {
+    content: "•";
+    color: #fff;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: -5px;
+}
+
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1025px) {
 
