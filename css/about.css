@@ -323,6 +323,11 @@ span {
     margin: auto;
 }
 
+.quote-button {
+    position: relative;
+    z-index: 1000;
+}
+
 /* Small Screens */
 @media screen and (min-width: 300px) and (max-width: 400px) {
 
