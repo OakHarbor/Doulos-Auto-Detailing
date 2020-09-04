@@ -386,6 +386,8 @@ var $benefitsH3 = $("#benefits h3");
 
 // Reviews
 var $reviewsH4 = $("#reviews h4");
+var $reviewsH3 = $(".reviews-topper h3");
+var $review = $(".review");
 
 // Contact
 var $chevron = $(".chevron-graphic");
@@ -462,6 +464,8 @@ const enableDarkMode = () => {
 
   // Reviews
   $reviewsH4.addClass("dark-mode");
+  $reviewsH3.addClass("dark-mode");
+  $review.addClass("dark-mode");
 
   // Contact
   $chevron.addClass("dark-mode");
@@ -540,6 +544,9 @@ const disableDarkMode = () => {
 
   // Reviews
   $reviewsH4.removeClass("dark-mode");
+  $reviewsH3.removeClass("dark-mode");
+  $review.removeClass("dark-mode");
+
 
   // Contact
   $chevron.removeClass("dark-mode");
